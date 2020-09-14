@@ -1,0 +1,93 @@
+.banner-area{
+    background-image: url(banner1.jpg); 
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 30px 90px;
+}
+
+.logo{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: big john;
+    padding: 20px 0px;
+    width: 20%;
+    float: left;
+    
+}
+
+.menu{
+    width: 42%;
+    float: right;  
+    list-style: none;
+}
+
+.menu li{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #fff;
+}
+
+.menu li:hover{
+    background-color: yellow;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-family: baloo;
+    color: black;
+    text-transform: uppercase;
+    
+}
+.header{
+    font-family: arial;
+    color: aqua;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 0%;
+    position: relative;
+    top: 300px;
+}
+
+.aboutImage{
+    position: absolute;
+    left: 11cm;
+    bottom: 200px;
+    float: left;
+}
+
+#column{
+    
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    top: 200px;
+    right: 400px;
+    width: 350px;
+    height:300px;
+    background-color: dimgrey;
+    opacity:inherit;
+}
+
